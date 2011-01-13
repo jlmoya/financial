@@ -1,0 +1,7 @@
+Financial Scilab Toolbox
+
+This toolbox is released under the terms of the GPL (3.0) license :
+
+http://gplv3.fsf.org/
+
+
