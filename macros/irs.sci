@@ -1,3 +1,8 @@
+// Copyright (C) 2009 - 2010 - Francesco Menoncin
+//
+// This file must be used under the terms of the GPL (3.0):
+// http://gplv3.fsf.org/
+
 function [spread,leg]=irs(time,months,r,setting);
   
 // PURPOSE: Compute both the spread for a fix-for-floating

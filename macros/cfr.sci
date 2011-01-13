@@ -1,3 +1,8 @@
+// Copyright (C) 2009 - 2010 - Francesco Menoncin
+//
+// This file must be used under the terms of the GPL (3.0):
+// http://gplv3.fsf.org/
+
 function [S]=cfr(varargin);
   
 // PURPOSE: Compare two or more time series and eliminate

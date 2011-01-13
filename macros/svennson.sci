@@ -1,3 +1,8 @@
+// Copyright (C) 2009 - 2010 - Francesco Menoncin
+//
+// This file must be used under the terms of the GPL (3.0):
+// http://gplv3.fsf.org/
+
 function [uopt,rf]=svennson(t,r,u0,varargin);
   
 // PURPOSE: Estimate the parameters u1, u2, u3, u4, u5, u6

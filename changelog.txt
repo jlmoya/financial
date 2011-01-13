@@ -3,6 +3,8 @@ changelog of the Financial Toolbox
 financial (not released yet)
     * Import on the Forge.
     * Restored the structure of the module from the ATOMS sources (etc, help).
+    * Added copyright notice into the macros.
+    * Updated TODOs.
 
 financial (v1: 2010-09-27)
     * Initial version

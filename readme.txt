@@ -52,6 +52,13 @@ Features
  * nelson_siegel : Estimate the parameters for the Nelson Siegel model of spot interest rates.
  * svennson : Estimate the parameters for the Svennson model of spot interest rates.
 
+TODO
+----
+ * Rename functions into "finance_*".
+ * Shorten description of functions.
+ * The help page of the svennson function is not properly formatted.
+ * Create unit tests.
+
 Authors
 ------
 
