@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ * Copyright (C) 2009 - 2010 - Francesco Menoncin
+ * Copyright (C) 2010 - DIGITEO - Michael Baudin
+-->
+<refentry
+          version="5.0-subset Scilab"
+          xml:id="financial_overview"
+          xml:lang="fr"
+          xmlns="http://docbook.org/ns/docbook"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          xmlns:svg="http://www.w3.org/2000/svg"
+          xmlns:ns4="http://www.w3.org/1999/xhtml"
+          xmlns:mml="http://www.w3.org/1998/Math/MathML"
+          xmlns:db="http://docbook.org/ns/docbook">
+
+  <refnamediv>
+    <refname>financial_overview</refname>
+
+    <refpurpose>An overview of the Financial toolbox.</refpurpose>
+  </refnamediv>
+
+  <refsection>
+    <title>Purpose</title>
+
+    <para>
+      The module is dedicated to finance. There are three main areas that are covered:
+      <itemizedlist>
+        <listitem>
+          <para>
+            risk measure and management,
+          </para>
+        </listitem>
+        <listitem>
+          <para>
+            asset allocation,
+          </para>
+        </listitem>
+        <listitem>
+          <para>
+            pricing.
+          </para>
+        </listitem>
+      </itemizedlist>
+    </para>
+
+    <para>
+      For what concerns the risk measure, some functions are dedicated to the computation of Value at Risk (VaR) 
+      and Expected Shortfall (ES). 
+      Backtest is also implemented in order to check the goodness of such risk measures.
+      Both VaR and ES are also computed in an Extreme Value Theory framework (EVT). 
+      Furthermore, it is possible to estimate the parameters of the EVT density function (through maximum likelihood). 
+      The Mean Excess Function for graphical study of an EVT distribution is also implemented.
+      The interest rate risk is faced by functions aimed at computing duration, convexity, and yield to maturity. 
+      Furthermore, Merton, Vasicek and Cox, Ingersoll and Ross interest rate models are implemented together with 
+      the estimation of their parameters. Parametric interpolation of the interest rate curve is possible through 
+      both Svennsons and Nelson-Siegels models.
+      Finally, some technical analysis indicators are implemented: Bollinger bands, moving averages, Hurst index.
+    </para>
+
+    <para>
+      The asset allocation problem is faced by two functions which compute:
+
+      <itemizedlist>
+        <listitem>
+          <para>
+            the optimal portfolio minimizing the variance of its return and
+          </para>
+        </listitem>
+        <listitem>
+          <para>
+            the optimal portfolio minimizing the expected shortfall of its return.
+          </para>
+        </listitem>
+      </itemizedlist>
+      In both cases, the portfolios with and without a riskless asset and with and without short selling are computed.
+    </para>
+
+    <para>
+      Pricing problem is approached through functions aimed at:
+      <itemizedlist>
+        <listitem>
+          <para>
+            computing the spread on Interest Rate Swaps,
+          </para>
+        </listitem>
+        <listitem>
+          <para>
+            computing the value of options in the Black and Scholes framework (with Greeks and implied volatility),
+          </para>
+        </listitem>
+        <listitem>
+          <para>
+            simulating stochastic processes (through Euler discretization).
+          </para>
+        </listitem>
+      </itemizedlist>
+    </para>
+
+  </refsection>
+
+  <refsection>
+    <title>Quick start</title>
+
+    <para>
+      TODO
+    </para>
+
+    <programlisting role="example">
+      <![CDATA[ 
+TODO
+ ]]>
+    </programlisting>
+  </refsection>
+
+  <refsection>
+    <title>Authors</title>
+
+    <para>
+      Copyright (C) 2009 - 2010 - Francesco Menoncin
+    </para>
+
+    <para>
+      Copyright (C) 2010 - DIGITEO - Michael Baudin
+    </para>
+
+  </refsection>
+
+</refentry>

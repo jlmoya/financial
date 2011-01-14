@@ -5,6 +5,9 @@ financial (not released yet)
     * Restored the structure of the module from the ATOMS sources (etc, help).
     * Added copyright notice into the macros.
     * Updated TODOs.
+    * Created an overview as an xml page.
+    * Updated bsgreeks.sci to generate the help from the sci.
+    * Added the help\en_US\update_help.sce script to generate the help from sci.
 
 financial (v1: 2010-09-27)
     * Initial version

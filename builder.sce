@@ -1,3 +1,5 @@
+// Copyright (C) 2009 - 2010 - Francesco Menoncin
+// Copyright (C) 2010 - DIGITEO - Michael Baudin
 mode(-1);
 lines(0);
 
@@ -23,5 +25,7 @@ toolbox_dir = get_absolute_file_path("builder.sce");
 tbx_builder_macros(toolbox_dir);
 tbx_builder_help(toolbox_dir);
 tbx_build_loader(TOOLBOX_NAME, toolbox_dir);
+tbx_build_cleaner(TOOLBOX_NAME, toolbox_dir);
+
 
 clear toolbox_dir TOOLBOX_NAME TOOLBOX_TITLE;
