@@ -14,11 +14,11 @@ mode(1)
 // 3 month time to maturity (i.e. T=3/12),
 // and 0.2 (annual) volatility.
 [D,G,Th,R,V]=bsgreeks(25,25,0.01,3/12,0.2)
-Vexpected = 4.9727729
-Rexpected = [3.0550246;-3.1793699]
-Thexpected = [2.1113101;1.8619344]
-Gexpected = 4.9727729
-Dexpected = [0.5298926;-0.4701074]
+Vexpected = 4.9727729;
+Rexpected = [3.0550246;-3.1793699];
+Thexpected = [2.1113101;1.8619344];
+Gexpected = 4.9727729;
+Dexpected = [0.5298926;-0.4701074];
 halt()   // Press return to continue
  
 //========= E N D === O F === D E M O =========//
