@@ -1,0 +1,15 @@
+# Scilab compiled macros / build artifacts
+*.bin
+macros/lib
+macros/names
+loader.sce
+unloader.sce
+cleaner.sce
+# help build output
+jar
+.last_*
+.list_*
+help/en_US/master_help.xml
+# OS
+.DS_Store
+*~

@@ -23,8 +23,8 @@ function [dur,con,ytm]=duration(t,c);
 // -------------------------------------------------------------
 // Francesco Menoncin (2010) 
 
-  deff('[van]=van(r)','van=c''*(1+r)^(-t)');
-  [ytm,f,inf]=fsolve(0,van);
+  deff('[van]=vanf(r)','van=c''*(1+r)^(-t)');
+  [ytm,f,inf]=fsolve(0,vanf);
   if inf<>1 then disp('Bad convergence'); else end
   dur=c(2:$)'*((1+ytm)^(-t(2:$)).*t(2:$))/(-c(1));
   con=c(2:$)'*((1+ytm)^(-t(2:$)).*(t(2:$).^2))/(-c(1));

@@ -24,7 +24,6 @@ function [xoptim,v,inf]=evt(x0,x,u)
 // Francesco Menoncin (2010)
   
   x=x(x>u);
-  deff('[y]=eq(z)','y=[1/z(1)/z(2)-(1/z(1)+1)/z(2)*mean((1+z(1)*(x-u)/z(2))^(-1));...
-     -(1/z(1)+1)/z(1)+1/z(1)^2*mean(log(1+z(1)*(x-u)/z(2)))+(1/z(1)+1)/z(1)*mean((1+z(1)*(x-u)/z(2))^(-1))]');
+  deff('[y]=eq(z)','y=[1/z(1)/z(2)-(1/z(1)+1)/z(2)*mean((1+z(1)*(x-u)/z(2))^(-1));-(1/z(1)+1)/z(1)+1/z(1)^2*mean(log(1+z(1)*(x-u)/z(2)))+(1/z(1)+1)/z(1)*mean((1+z(1)*(x-u)/z(2))^(-1))]');
   [xoptim,v,inf]=fsolve(x0,eq);
 endfunction
